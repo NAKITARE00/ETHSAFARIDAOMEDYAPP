@@ -1,50 +1,56 @@
-# Tailwind CSS + TypeScript + Next.js Starter
 
-This is a lightweight starterkit / boilerplate to get up and running with Tailwind CSS, TypeScript and Next.js.
 
-## Why make this boilerplate?
+<h1 align="center">
+  Dev.UI template 
+</h1>
 
-Tailwind, Next.js, and TypeScript is an excellent stack for building web apps. The most annoying part of using the stack
-is setting it up every time, so I made an easy to use template that I and many others can use.
+[Deployed link](https://dev-ui-templates.pages.dev/)  [Design link](https://www.figma.com/community/file/1092001412627112221/NFT-Marketplace---Free-UI-Kit-Landing-Page) ![Screenshot 2022-04-21 at 10 42 32 PM](https://user-images.githubusercontent.com/62591080/164515406-2516027a-b096-4944-b644-4530e05d68da.png)
 
-## Usage
 
-### 1. Clone Repo
 
-Github released [Github Templates](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) which allows users to generate a new repo from a template repo that will have the exact same files and structure. You can generate your own repo from this template by using [this link](https://github.com/kyrelldixon/next-tailwind-typescript-starter/generate).
+[Open In CodeSandbox](https://githubbox.com/kumard3/dev-ui-templates/tree/main/template-9)
 
-From there, you can clone your own repo and modify it however you like.
 
-If you would rather clone this repo, go to the command line and run:
+## 🚀 Getting Started
+
+First, run the development server:
 
 ```bash
-git clone https://github.com/kyrelldixon/next-tailwind-typescript-starter <your-project-name>
-cd <your-project-name>
+npm run dev
+# or
+yarn dev
 ```
 
-### 2. Install Dependencies
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-pnpm install # npm i
-```
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### 3. Run Development Environment
+## ✍ Customizing Tailwind Typography
 
-```bash
-pnpm dev # npm run dev
-```
+[Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography) is an official tailwind plugin that provides a set of `prose` classes to add beautiful typographic defaults to any vanilla HTML you don't control (like HTML rendered from Markdown, or pulled from a CMS).
 
-### Test Production Environment
+To customize the defaults provided by the plugin, add the overrides under the `typography` key in the theme section of the `tailwind.config.js` file. Refer to its [default styles](https://github.com/tailwindlabs/tailwindcss-typography/blob/master/src/styles.js) for more in-depth examples.
 
-I also included a `stage` script that will build and start a production server. You can run it with:
+For more information, please check out Tailwind Typography's [customization section](https://github.com/tailwindlabs/tailwindcss-typography#customization).
 
-```bash
-pnpm stage # npm run stage
-```
+## 📖 Learn More
 
-Alternatively you can run:
+### Next.js
 
-```bash
-pnpm build # npm run build
-pnpm start # npm start
-```
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+### Tailwind CSS
+
+To learn more about Tailwind CSS, take a look at the following resources:
+
+- [Tailwind Documentation](https://tailwindcss.com/) - learn about Tailwind CSS features and API.
+
+
+## ☁ Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kumard3/dev-ui-templates/tree/main/template-9)  [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/kumard3/dev-ui-templates/tree/main/template-9)
