@@ -38,8 +38,4 @@ contract MedicalExperts is AccessControl {
         return doctorlist;
     }
 
-    //function requestAccess(address _patientAddress) external {
-    //    require(hasRole(DOCTOR_ROLE, msg.sender), "Caller is not a doctor");
-    //    PatientManagement(_patientAddress).grantAccess();
-    //}
 }
