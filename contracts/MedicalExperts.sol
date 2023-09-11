@@ -37,5 +37,4 @@ contract MedicalExperts is AccessControl {
     function getDoctor() external view returns (Doctor[] memory) {
         return doctorlist;
     }
-
 }

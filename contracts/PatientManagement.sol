@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.18;
 
 import "@openzeppelin/contracts/utils/Counters.sol";
@@ -23,6 +24,7 @@ contract PatientManagement is AccessControl {
     }
 
     mapping(address => Patient) public patients;
+    MedicalRecord public record;
 
     //Initating a struct for the medical record, mapping to an address
     struct MedicalRecord {
@@ -30,6 +32,8 @@ contract PatientManagement is AccessControl {
         uint256 weight;
         string imageHash;
     }
+
+    string public x_imageHash;
     mapping(address => MedicalRecord) public medicalRecords;
 
     function registerPatient(
@@ -39,7 +43,6 @@ contract PatientManagement is AccessControl {
         patients[msg.sender] = Patient(_patientName, _contactInfo);
         grantRole(PATIENT_ROLE, msg.sender);
     }
-
 
     function createMedicalRecord(uint256 _height, uint256 _weight) external {
         require(
@@ -54,6 +57,7 @@ contract PatientManagement is AccessControl {
             hasRole(PATIENT_ROLE, msg.sender),
             "Only Patient Can Make Record Change"
         );
+        x_imageHash = _imageHash;
         medicalRecords[msg.sender].imageHash = _imageHash;
     }
 
@@ -61,7 +65,7 @@ contract PatientManagement is AccessControl {
         address _patientaddress,
         uint256 _height,
         uint256 _weight
-    ) external {
+    ) public {
         require(
             _patientaddress == msg.sender,
             "Only Patient Can Make A Record Change"
@@ -71,11 +75,12 @@ contract PatientManagement is AccessControl {
 
     function getMedicalRecord(
         address _patientAddress
-    ) external view returns (MedicalRecord memory) {
+    ) external returns (uint256, uint256, string memory) {
         require(
-            hasRole(DEFAULT_ADMIN_ROLE, address(this)),
+            hasRole(PATIENT_ROLE, msg.sender),
             "Can't access Medical Record"
         );
-        return medicalRecords[_patientAddress];
+        record = medicalRecords[_patientAddress];
+        return (record.height, record.weight, record.imageHash);
     }
 }
