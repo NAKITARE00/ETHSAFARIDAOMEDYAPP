@@ -40,10 +40,6 @@ contract PatientManagement is AccessControl {
         grantRole(PATIENT_ROLE, msg.sender);
     }
 
-    // function grantAccess(address _doctorAddress) external {
-    //    require(hasRole(PATIENT_ROLE, msg.sender), "Caller is not a patient");
-    //     grantRole(DEFAULT_ADMIN_ROLE, _doctorAddress);
-    // }
 
     function createMedicalRecord(uint256 _height, uint256 _weight) external {
         require(
