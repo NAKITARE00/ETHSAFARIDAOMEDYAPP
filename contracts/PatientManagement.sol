@@ -58,7 +58,7 @@ contract PatientManagement is AccessControl {
             "Only Patient Can Make Record Change"
         );
         x_imageHash = _imageHash;
-        medicalRecords[msg.sender].imageHash = _imageHash;
+        medicalRecords[msg.sender].imageHash = x_imageHash;
     }
 
     function updateMedicalRecord(
