@@ -60,6 +60,7 @@ function App() {
   return (
     
     <div className="relative w-full min-h-screen overflow-hidden px-3">
+      <NavComponent />
       <div className="absolute top-0 left-[50%] ">
         <div className="bg-[#73E0A9] w-[849px] h-[825px] filter blur-[509px]"></div>
         <div className="bg-[#5B68DF] w-[999px] h-[971px] filter blur-[509px]"></div>
@@ -72,8 +73,8 @@ function App() {
       {modalOpen && (
         <Modal setModalOpen={setModalOpen} contract={contract}></Modal>
       )}
-
-      <div className="App min-h-screen bg-gradient-to-r from-blue-600 to-purple-600 p-4">
+      
+      <div>
         <h1 className="text-white text-2xl mb-4">Decentralised Gdrive 2.0</h1>
         <p className="text-white">
           Account: {account ? account : "Not connected"}
@@ -84,7 +85,7 @@ function App() {
       <Appointment />
       </div>
      
-      <NavComponent />
+      
       <BottomNav />
       {/* <Hero /> */}
       {/*<HiddenGems />*/}
