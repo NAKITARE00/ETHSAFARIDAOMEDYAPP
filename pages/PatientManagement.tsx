@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 //import { ethers } from 'ethers';
 //import PatientManagement from '../contracts/PatientManagement.json';
+import NavComponent from "../components/NavComponent";
+import BottomNav from "../components/BottomNav";
 
 const PatientManagementManager: React.FC = () => {
   const [contract, setContract] = useState<any>(null);
@@ -99,6 +101,16 @@ const PatientManagementManager: React.FC = () => {
   };
 
   return (
+    <div className="relative w-full min-h-screen overflow-hidden px-3">
+      <div className="absolute top-0 left-[50%] ">
+        <div className="bg-[#73E0A9] w-[849px] h-[825px] filter blur-[509px]"></div>
+        <div className="bg-[#5B68DF] w-[999px] h-[971px] filter blur-[509px]"></div>
+      </div>
+
+      <NavComponent /> 
+        
+        <BottomNav /> 
+
     <div className="container mx-auto">
       <h1 className="text-2xl font-bold mt-4">Patient Management</h1>
       <div className="mt-4">
@@ -174,6 +186,14 @@ const PatientManagementManager: React.FC = () => {
         </button>
         {/* Display the medical record data here */}
       </div>
+    </div>
+
+    <div className="absolute bottom-0 left-0  ">
+        <div className="bg-[#73E0A9] absolute w-[849px] h-[825px] filter blur-[509px]"></div>
+        <div className="bg-[#5B68DF] absolute w-[999px] h-[971px] filter blur-[509px]"></div>
+      </div>
+
+     {/* <LatestNft />*/}
     </div>
   );
 };

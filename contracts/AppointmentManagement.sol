@@ -64,7 +64,7 @@ contract AppointmentManagement {
         appointment.timestamp = _timestamp;
         appointment.status = AppointmentStatus.Requested;
 
-        emit AppointmentRequested(
+        emit AppointmentRequested (
             nextAppointmentId,
             msg.sender,
             _doctor,
