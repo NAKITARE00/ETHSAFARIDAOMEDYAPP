@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import HiddenGems from "../components/HiddenGems";
 import LatestNft from "../components/LatestNft";
 import NavComponent from "../components/NavComponent";
+import BottomNav from "../components/BottomNav";
 import TopCollection from "../components/TopCollection";
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
       <NavComponent />
       <Hero />
+      <BottomNav />
       {/*<HiddenGems />*/}
       {/*<TopCollection />*/}
       <div className="absolute bottom-0 left-0  ">
