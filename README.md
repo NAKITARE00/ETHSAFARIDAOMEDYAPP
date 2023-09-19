@@ -59,3 +59,30 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+# Contracts Deployed to Base 
+
+AppointmentManagement deployed to: 0xa2C9dBa2cD2f8a021865F9Ee4F5bC497CEF62bcC
+MedicalExperts deployed to: 0xc11D92e648558A01A26ed0600Ca8b710461b71C1
+PatientManagement deployed to: 0xDFA6b7ae18DDD11dACf93bF93644d08B75420847
+AppointmentManagement deployed to: 0xa2C9dBa2cD2f8a021865F9Ee4F5bC497CEF62bcC
+RecordAccess deployed to: 0xe45EE6413Dd19d521bf311824baF621DC727279b
+
+# Contracts Deployed to Linea
+
+AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
+MedicalExperts deployed to: 0x8717AA1C02bf4a16aa1a4a6114594c2b855bfA8E
+PatientManagement deployed to: 0x0Aa93Ea4Ad54cA337f83F85cC909438e281cC25B
+AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
+RecordAccess deployed to: 0xf3e793112bd139B31361AAe5A3F16E3cCd0F5cb7
+
+# Contracts Deployed to Internet Compunter
+AppointmentManagement deployed to: 
+0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
+MedicalExperts deployed to:
+0x0165878A594ca255338adfa4d48449f69242Eb8F
+PatientManagement deployed to:
+0xa513E6E4b8f2a923D98304ec87F64353C4D5C853
+RecordAccess deployed to:
+0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6
+Afya deployed to:
+0x8A791620dd6260079BF849Dc5567aDC3F2FdC318
