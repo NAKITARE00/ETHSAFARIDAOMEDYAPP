@@ -74,7 +74,18 @@ const MedicalExpertsManager: React.FC = () => {
       <NavComponent /> 
         
         <BottomNav /> 
-    <div className="container mx-auto">
+
+        
+      <div className="ml-60 items-end justify-center  max-w-xl">
+     
+     
+        
+     <article
+ className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+>
+ <div className="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+  
+ <div className="container mx-auto">
       <h1 className="text-2xl font-bold mt-4">Medical Experts</h1>
       <div className="mt-4">
         <h2 className="text-xl font-semibold">Register Doctor</h2>
@@ -106,7 +117,18 @@ const MedicalExpertsManager: React.FC = () => {
         </button>
         {/* Display the list of doctors here */}
       </div>
-    </div>
+    </div>  <a href="#">
+     
+   </a>
+
+   <div className="mt-4 flex flex-wrap gap-1">
+     
+   </div>
+ </div>
+</article>
+</div>
+
+   
 
     <div className="absolute bottom-0 left-0  ">
         <div className="bg-[#73E0A9] absolute w-[849px] h-[825px] filter blur-[509px]"></div>

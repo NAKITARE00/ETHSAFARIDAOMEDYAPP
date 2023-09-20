@@ -61,90 +61,7 @@ function App() {
     
     <div className="relative w-full min-h-screen overflow-hidden px-3">
       <NavComponent />
-      <div className="absolute top-0 left-[50%] ">
-        <div className="bg-[#73E0A9] w-[849px] h-[825px] filter blur-[509px]"></div>
-        <div className="bg-[#5B68DF] w-[999px] h-[971px] filter blur-[509px]"></div>
-      </div>
-      {!modalOpen && (
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg mt-4" onClick={() => setModalOpen(true)}>
-          Share
-        </button>
-      )}
-      {modalOpen && (
-        <Modal setModalOpen={setModalOpen} contract={contract}></Modal>
-      )}
       
-      <div>
-        <h1 className="text-white text-2xl mb-4">Decentralised Gdrive 2.0</h1>
-        <p className="text-white">
-          Account: {account ? account : "Not connected"}
-        </p>
-        <article className="rounded-xl border border-gray-700 bg-gray-800 p-4">
-
-  <div className=" max-w-sm items-center gap-4">
-    <img
-      alt="Developer"
-      src="https://images.unsplash.com/photo-1614644147724-2d4785d69962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
-      className="h-16 w-16 rounded-full object-cover"
-    />
-
-    <div>
-      <h3 className="text-lg font-medium text-white">Claire Mac</h3>
-
-      <div className="flow-root">
-        <ul className="-m-1 flex flex-wrap">
-          <li className="p-1 leading-none">
-            <a href="#" className="text-xs font-medium text-gray-300"> Twitter </a>
-          </li>
-
-          <li className="p-1 leading-none">
-            <a href="#" className="text-xs font-medium text-gray-300"> GitHub </a>
-          </li>
-
-          <li className="p-1 leading-none">
-            <a href="#" className="text-xs font-medium text-gray-300">Website</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <ul className="mt-4 space-y-2">
-    <li>
-      <a
-        href="#"
-        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
-      >
-        <strong className="font-medium text-white">Project A</strong>
-
-        <p className="mt-1 text-xs font-medium text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          consequuntur deleniti, unde ab ut in!
-        </p>
-      </a>
-    </li>
-
-    <li>
-      <a
-        href="#"
-        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
-      >
-        <strong className="font-medium text-white">Project B</strong>
-
-        <p className="mt-1 text-xs font-medium text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          cumque saepe sit.
-        </p>
-      </a>
-    </li>
-  </ul>
-</article>
-        <FileUpload account={account} provider={provider} contract={contract} />
-        <Display contract={contract} account={account} />
-         
-      <Appointment />
-      </div>
-     
       
       <BottomNav />
       {/* <Hero /> */}
@@ -155,6 +72,27 @@ function App() {
         <div className="bg-[#73E0A9] absolute w-[849px] h-[825px] filter blur-[509px]"></div>
         <div className="bg-[#5B68DF] absolute w-[999px] h-[971px] filter blur-[509px]"></div>
       </div>
+
+      <div className="ml-60 items-end justify-center  max-w-xl">
+     
+     
+        
+      <article
+  className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+>
+  <div className="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+   
+  <Appointment />
+    <a href="#">
+      
+    </a>
+
+    <div className="mt-4 flex flex-wrap gap-1">
+      
+    </div>
+  </div>
+</article>
+</div>
 
      {/* <LatestNft />*/}
     </div>

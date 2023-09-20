@@ -123,9 +123,19 @@ const RecordAccessManager: React.FC = () => {
         <BottomNav /> 
         {/*<HiddenGems />*/}
         {/*<TopCollection />*/}
-        
+
+
+ 
+        <div className="ml-60 items-end items-center  max-w-xl">
+<article
+  className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+>
+  <div className="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
     
-    <div className="container mx-auto">
+
+    
+
+    <div className="container text-center mx-auto">
       <h1 className="text-2xl font-bold mt-4">Record Access Management</h1>
       <div className="mt-4">
         <h2 className="text-xl font-semibold">Request Access to Patient Records</h2>
@@ -191,6 +201,12 @@ const RecordAccessManager: React.FC = () => {
         </ul>
       </div>
     </div>
+  </div>
+</article>
+</div>
+        
+    
+    
 
     <div className="absolute bottom-0 left-0  ">
           <div className="bg-[#73E0A9] absolute w-[849px] h-[825px] filter blur-[509px]"></div>
