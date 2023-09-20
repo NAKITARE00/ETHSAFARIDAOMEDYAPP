@@ -84,7 +84,6 @@ npx hardhat run scripts/deploy.js
 AppointmentManagement deployed to: 0xa2C9dBa2cD2f8a021865F9Ee4F5bC497CEF62bcC
 MedicalExperts deployed to: 0xc11D92e648558A01A26ed0600Ca8b710461b71C1
 PatientManagement deployed to: 0xDFA6b7ae18DDD11dACf93bF93644d08B75420847
-AppointmentManagement deployed to: 0xa2C9dBa2cD2f8a021865F9Ee4F5bC497CEF62bcC
 RecordAccess deployed to: 0xe45EE6413Dd19d521bf311824baF621DC727279b
 ```
 # Contracts Deployed to Linea
@@ -92,7 +91,6 @@ RecordAccess deployed to: 0xe45EE6413Dd19d521bf311824baF621DC727279b
 AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
 MedicalExperts deployed to: 0x8717AA1C02bf4a16aa1a4a6114594c2b855bfA8E
 PatientManagement deployed to: 0x0Aa93Ea4Ad54cA337f83F85cC909438e281cC25B
-AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
 RecordAccess deployed to: 0xf3e793112bd139B31361AAe5A3F16E3cCd0F5cb7
 ```
 # Contracts Deployed to Internet Computer
