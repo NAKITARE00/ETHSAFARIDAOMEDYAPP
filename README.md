@@ -75,7 +75,7 @@ PatientManagement deployed to: 0x0Aa93Ea4Ad54cA337f83F85cC909438e281cC25B
 AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
 RecordAccess deployed to: 0xf3e793112bd139B31361AAe5A3F16E3cCd0F5cb7
 ```
-# Contracts Deployed to Internet Compunter
+# Contracts Deployed to Internet Computer
 ```shell
 AppointmentManagement deployed to: 
 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
@@ -88,3 +88,10 @@ RecordAccess deployed to:
 Afya deployed to:
 0x8A791620dd6260079BF849Dc5567aDC3F2FdC318
 ```
+
+# Screenshots
+
+![AFYAPP-HOME PAGE](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/1b9c6789-1659-46fd-9ad3-fd517ca94210)
+![Appointment management](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/651a2eec-b921-4064-b756-d249b52f1f30)
+![Records](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/bb80aaa7-7654-4477-9319-a4665e9b9928)
+![ICP Deployment](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/07497d26-2642-46d6-8d0e-d48d267e07dc)
