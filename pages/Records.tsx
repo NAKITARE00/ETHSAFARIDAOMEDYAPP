@@ -126,7 +126,9 @@ const RecordAccessManager: React.FC = () => {
 
 
  
-        <div className="ml-60 items-end items-center  max-w-xl">
+        
+      <div className="relative z-8 min-w-xl mt-10 mr-50 h-[60vh] flex flex-col justify-center items-center">
+        
 <article
   className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
 >

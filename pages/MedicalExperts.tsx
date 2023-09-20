@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 //import MedicalExperts from './contracts/MedicalExperts.json';
 import NavComponent from "../components/NavComponent";
 import BottomNav from "../components/BottomNav";
+import Utu from "../components/Utu";
 
 const MedicalExpertsManager: React.FC = () => {
   const [contract, setContract] = useState<any>(null);
@@ -74,9 +75,9 @@ const MedicalExpertsManager: React.FC = () => {
       <NavComponent /> 
         
         <BottomNav /> 
-
-        
-      <div className="ml-60 items-end justify-center  max-w-xl">
+        <Utu />
+       
+        <div className="flex flex-row relative z-8 min-w-xl  mr-50 h-[60vh] flex flex-col justify-center items-center">
      
      
         

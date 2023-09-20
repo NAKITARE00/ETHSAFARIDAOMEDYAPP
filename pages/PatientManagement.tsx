@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import NavComponent from "../components/NavComponent";
 import BottomNav from "../components/BottomNav";
 
+
 const PatientManagementManager: React.FC = () => {
   const [contract, setContract] = useState<any>(null);
   const [account, setAccount] = useState<string | null>(null);
@@ -109,10 +110,11 @@ const PatientManagementManager: React.FC = () => {
 
       <NavComponent /> 
         
-        <BottomNav /> 
+        <BottomNav />
+        
 
         
-      <div className="ml-60 items-end justify-center  max-w-xl">
+  <div className="relative z-8 min-w-xl mt-10 mr-50 h-[60vh] flex flex-col justify-center items-center">
      
      
         

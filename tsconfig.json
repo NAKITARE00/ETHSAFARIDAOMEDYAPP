@@ -16,6 +16,6 @@
     "incremental": true,
     "noImplicitAny": false
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Files.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Files.tsx", "hardhat.config.js", "hardhat.config.js", "hardhat.config.js", "hardhat.config.js"],
   "exclude": ["node_modules"]
 }

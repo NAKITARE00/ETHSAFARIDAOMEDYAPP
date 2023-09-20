@@ -1,25 +1,5 @@
 
 
-## 🧑‍⚕️ AFYAPP
-Accessing healthcare in Kenya presents significant challenges, especially for those residing in rural areas. As of 2021, approximately 72% of the population lived outside urban centers, leading to costly and time-consuming journeys for medical care. Quality healthcare services are largely concentrated in urban areas, making accessibility a growing concern for rural populations.
-
-Compounding the issue, Kenya faces a severe shortage of healthcare professionals. According to the World Health Organization (WHO), a country should have 23 health professionals per 10,000 people. In 2020, Kenya had only 63,580 registered nurses for its 55.6 million citizens, a number well below WHO recommendations. Furthermore, the country had just 12,792 registered physicians, which falls significantly short of meeting the healthcare needs of the population.
-
-The scarcity of specialized care in rural regions has led to overcrowding in the limited medical facilities available and a higher mortality rate, contributing to a complex healthcare challenge
-
-AFYAPP is a cutting-edge healthcare solution that leverages blockchain technology to securely manage and share medical records. Our platform empowers patients, doctors, and healthcare providers by ensuring data privacy, integrity, and accessibility.
-
-## Key Features:
-
-- Secure Medical Records: Patients can upload their medical records, which are encrypted and stored on a blockchain. This ensures that sensitive medical information remains private and tamper-proof.
-
-- Doctor-Patient Collaboration: Patients can grant access to their records to trusted healthcare providers, streamlining the consultation and treatment process.
-
-- Efficient Appointment Scheduling: Patients can request appointments with doctors, and doctors can approve or reschedule, all within the platform.
-
-- Automatic Image Rendering: Patients can upload medical images, and our system automatically converts the image hash into a viewable format for healthcare providers.
-
-- Decentralized Identity: Patients have full control over their healthcare data and can manage access permissions, providing peace of mind and compliance with data privacy regulations. AFYAPP revolutionizes healthcare record management, making medical data accessible, secure, and efficient for all stakeholders. Join us in shaping the future of healthcare with blockchain technology.
 
 ## 🚀 Getting Started
 
@@ -84,6 +64,7 @@ npx hardhat run scripts/deploy.js
 AppointmentManagement deployed to: 0xa2C9dBa2cD2f8a021865F9Ee4F5bC497CEF62bcC
 MedicalExperts deployed to: 0xc11D92e648558A01A26ed0600Ca8b710461b71C1
 PatientManagement deployed to: 0xDFA6b7ae18DDD11dACf93bF93644d08B75420847
+AppointmentManagement deployed to: 0xa2C9dBa2cD2f8a021865F9Ee4F5bC497CEF62bcC
 RecordAccess deployed to: 0xe45EE6413Dd19d521bf311824baF621DC727279b
 ```
 # Contracts Deployed to Linea
@@ -91,9 +72,10 @@ RecordAccess deployed to: 0xe45EE6413Dd19d521bf311824baF621DC727279b
 AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
 MedicalExperts deployed to: 0x8717AA1C02bf4a16aa1a4a6114594c2b855bfA8E
 PatientManagement deployed to: 0x0Aa93Ea4Ad54cA337f83F85cC909438e281cC25B
+AppointmentManagement deployed to: 0x820B15386EA0D67F0fE89DC0da69A95e4726f59a
 RecordAccess deployed to: 0xf3e793112bd139B31361AAe5A3F16E3cCd0F5cb7
 ```
-# Contracts Deployed to Internet Computer
+# Contracts Deployed to Internet Compunter
 ```shell
 AppointmentManagement deployed to: 
 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
@@ -109,7 +91,3 @@ Afya deployed to:
 
 # Screenshots
 
-![AFYAPP-HOME PAGE](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/1b9c6789-1659-46fd-9ad3-fd517ca94210)
-![Appointment management](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/651a2eec-b921-4064-b756-d249b52f1f30)
-![Records](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/bb80aaa7-7654-4477-9319-a4665e9b9928)
-![ICP Deployment](https://github.com/NAKITARE00/ETHSAFARIDAOMEDYAPP/assets/86532040/07497d26-2642-46d6-8d0e-d48d267e07dc)

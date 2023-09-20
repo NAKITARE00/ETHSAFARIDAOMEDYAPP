@@ -73,33 +73,9 @@ function App() {
         <div className="bg-[#73E0A9] absolute w-[849px] h-[825px] filter blur-[509px]"></div>
         <div className="bg-[#5B68DF] absolute w-[999px] h-[971px] filter blur-[509px]"></div>
       </div>
+      <Upload />
       
       
-      <div className="relative z-8 mr-60 h-[40vh] flex flex-col justify-center items-center">
-                 
-      <div className="relative max-w-3xl my-5">
-        </div>
-        <div className="ml-60 items-end justify-center  max-w-xl">
-     <article
-  className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
->
-  
-  <div className="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
-  
-  <Appointment />
-    <a href="#">
-      
-    </a>
-
-    <div className="mt-4 flex flex-wrap gap-1">
-      
-    </div>
-  </div>
-</article>
-
-
-</div>
-      </div>
       
 
      {/* <LatestNft />*/}
