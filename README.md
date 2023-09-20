@@ -1,4 +1,6 @@
 
+## 🧑‍⚕️AFYAPP
+AFYAPP is a cutting-edge healthcare solution that leverages blockchain technology to securely manage and share medical records. Our platform empowers patients, doctors, and healthcare providers by ensuring data privacy, integrity, and accessibility.
 
 
 ## 🚀 Getting Started
