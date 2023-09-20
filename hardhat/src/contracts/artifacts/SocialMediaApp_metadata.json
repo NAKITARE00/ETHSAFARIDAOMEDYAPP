@@ -1,0 +1,340 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "commentId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "relatedPostId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "comment",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "commentDate",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "commentedUser",
+						"type": "address"
+					}
+				],
+				"name": "UploadComment",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "postId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "postImage",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "caption",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "tags",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "UploadPost",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getComments",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "commentId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "relatedPostId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "comment",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "commentDate",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "commentedUser",
+								"type": "address"
+							}
+						],
+						"internalType": "struct SocialMediaApp.Comment[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getPost",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "postId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "postImage",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "caption",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "tags",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "date",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "user",
+								"type": "address"
+							}
+						],
+						"internalType": "struct SocialMediaApp.Post",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPosts",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "postId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "postImage",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "caption",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "tags",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "date",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "user",
+								"type": "address"
+							}
+						],
+						"internalType": "struct SocialMediaApp.Post[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "postId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "postComment",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					}
+				],
+				"name": "uploadComment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "postImage",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "caption",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "tags",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "postDate",
+						"type": "string"
+					}
+				],
+				"name": "uploadPost",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UniversalBluecheck.sol": "SocialMediaApp"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Counters.sol": {
+			"keccak256": "0xf0018c2440fbe238dd3a8732fa8e17a0f9dce84d31451dc8a32f6d62b349c9f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59e1c62884d55b70f3ae5432b44bb3166ad71ae3acd19c57ab6ddc3c87c325ee",
+				"dweb:/ipfs/QmezuXg5GK5oeA4F91EZhozBFekhq5TD966bHPH18cCqhu"
+			]
+		},
+		"contracts/UniversalBluecheck.sol": {
+			"keccak256": "0x2e437363ceeb1597c5ac970d351e46506f63096e441fa7486cd41af031c3f1df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54e6d3fa9c66b95e808a4e126b121c7edbc506b259cc39eccbdb8a04f601f806",
+				"dweb:/ipfs/QmXvTrm6bRPSaxgJvSqmpFCefDE4MXCRkrTKBGFDdCXaeU"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		}
+	},
+	"version": 1
+}
