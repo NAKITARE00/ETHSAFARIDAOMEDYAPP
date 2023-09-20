@@ -31,6 +31,41 @@ export default function NavComponent() {
         <img src="AFYAPP-ICON.png" width="65" height="65" />
         </div>
 
+        <ul className="items-stretch hidden space-x-3 lg:flex">
+              <li className="flex">
+                <a
+                  href="/UploadImage"
+                  className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
+              >
+                  Upload Xray Image
+                </a>
+              </li>
+              <li className="flex">
+                <a
+                  href="/DoctorReview"
+                  className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
+                >
+                  Leave Review
+                </a>
+              </li>
+              <li className="flex">
+                <a
+                  href="#"
+                  className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
+                >
+                  Link
+                </a>
+              </li>
+              <li className="flex">
+                <a
+                  href="#"
+                  className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
+                >
+                  Link
+                </a>
+              </li>
+            </ul>
+
         <div
       style={{
         display: 'flex',
