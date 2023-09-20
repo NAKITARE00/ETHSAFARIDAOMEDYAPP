@@ -1,5 +1,25 @@
 
 
+## 🧑‍⚕️ AFYAPP
+Accessing healthcare in Kenya presents significant challenges, especially for those residing in rural areas. As of 2021, approximately 72% of the population lived outside urban centers, leading to costly and time-consuming journeys for medical care. Quality healthcare services are largely concentrated in urban areas, making accessibility a growing concern for rural populations.
+
+Compounding the issue, Kenya faces a severe shortage of healthcare professionals. According to the World Health Organization (WHO), a country should have 23 health professionals per 10,000 people. In 2020, Kenya had only 63,580 registered nurses for its 55.6 million citizens, a number well below WHO recommendations. Furthermore, the country had just 12,792 registered physicians, which falls significantly short of meeting the healthcare needs of the population.
+
+The scarcity of specialized care in rural regions has led to overcrowding in the limited medical facilities available and a higher mortality rate, contributing to a complex healthcare challenge
+
+AFYAPP is a cutting-edge healthcare solution that leverages blockchain technology to securely manage and share medical records. Our platform empowers patients, doctors, and healthcare providers by ensuring data privacy, integrity, and accessibility.
+
+## Key Features:
+
+- Secure Medical Records: Patients can upload their medical records, which are encrypted and stored on a blockchain. This ensures that sensitive medical information remains private and tamper-proof.
+
+- Doctor-Patient Collaboration: Patients can grant access to their records to trusted healthcare providers, streamlining the consultation and treatment process.
+
+- Efficient Appointment Scheduling: Patients can request appointments with doctors, and doctors can approve or reschedule, all within the platform.
+
+- Automatic Image Rendering: Patients can upload medical images, and our system automatically converts the image hash into a viewable format for healthcare providers.
+
+- Decentralized Identity: Patients have full control over their healthcare data and can manage access permissions, providing peace of mind and compliance with data privacy regulations. AFYAPP revolutionizes healthcare record management, making medical data accessible, secure, and efficient for all stakeholders. Join us in shaping the future of healthcare with blockchain technology.
 
 ## 🚀 Getting Started
 
